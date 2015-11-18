@@ -24,7 +24,7 @@ if (file_exists('vendor/autoload.php')) {
 if (class_exists('Zend\Loader\AutoloaderFactory')) {
     return;
 }
-
+$test=="8";
 $zf2Path = false;
 
 if (getenv('ZF2_PATH')) {            // Support for ZF2_PATH environment variable
